@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance web media project</title>
+    <style>
+        body {
+            text-align: center;
+            min-height: 100vh;
+            background-image: linear-gradient(45deg, #18002e 0%, #250a03 99%, #914609 100%);
+            padding: 1rem;
+            color: #fff;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+
+        }
+
+        ul li {
+            background-color: rgba(226, 232, 234, 0.279);
+            border-radius: 1.5rem;
+            /* box-shadow: 0 0 20px rgba(238, 233, 233, 0.845); */
+            transition:all 0.4s ease;
+        }
+        ul li:hover{
+            background-color: #8321de;
+        }
+        ul li a {
+            text-decoration: none;
+            font-size: 1.6rem;
+            display: inline-block;
+            padding:1rem 1.8rem;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-weight: 900;
+            font-variant: small-caps;
+            font-variant-ligatures: contextual;
+            background-image: linear-gradient(45deg, #8321de, #0d962d, #2bb5d1);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Advance Html Project List
+        </h1>
+    </header>
+    <section>
+        <ul>
+            <li><a href="accentShard.html"></a></li>
+            <li><a href="advanceimagegallary.html"></a></li>
+            <li><a href="amazon.html"></a></li>
+            <li><a href="cardhovereffect.html"></a></li>
+            <li><a href="futuristcard.html"></a></li>
+            <li><a href="hackedtext.html"></a></li>
+            <li><a href="imagewallmenu.html"></a></li>
+            <li><a href="interactivefooter.html"></a></li>
+            <li><a href="magicalwend.html"></a></li>
+            <li><a href="parallaxgallary.html"></a></li>
+            <li><a href="polyrhythmicspiral.html"></a></li>
+            <li><a href="portfolio.html"></a></li>
+            <li><a href="spacenav.html"></a></li>
+            <li><a href="superheader.html"></a></li>
+            <li><a href="themepicker.html"></a></li>
+            <li><a href="ticketmaster.html"></a></li>
+            <li><a href="turbulent.html"></a></li>
+        </ul>
+    </section>
+    <script>
+        document.querySelectorAll('li a').forEach((a, i) => {
+            a.textContent = `Project ${i + 1}`
+        })
+    </script>
+</body>
+
+</html>
